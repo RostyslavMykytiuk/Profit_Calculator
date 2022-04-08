@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main_title">Порахуйте свої прибутки </h1>
+        <div class="calculates_container">
+            <div class="calculate_items">
+                <h3 class="calculate_title">Прибуток в місяць</h3>
+                <input type="text" name="" id="salary" placeholder="Зарплатня"class="input"><br>
+                <input type="text" name="" id="freelance" placeholder="Фріланс"class="input"><br>
+                <input type="text" name="" id="additional_profit1" placeholder="Дод прибуток"class="input"><br>
+                <input type="text" name="" id="additional_profit2" placeholder="Дод прибуток"class="input"><br>
+            </div>
+            <div class="calculate_items">
+                <h3 class="calculate_title">Витрати в місяць</h3>
+                <input type="text" name="" id="rent" placeholder="Оренда житла" class="input"><br>
+                <input type="text" name="" id="communal_services" placeholder="Комунальні послуги" class="input"><br>
+                <input type="text" name="" id="transport" placeholder="Транспорт"class="input"><br>
+                <input type="text" name="" id="credits" placeholder="Кредити"class="input"><br>
+            </div>
+            <div class="calculate_items">
+                <h3 class="calculate_title">Доступно в місяць (без копілки)</h3>
+                <h2 class="money_to_spend">0</h2>
+                <h3 class="calculate_title">Доступно в день</h3>
+                <h2 class="money_to_spend_per_day">0</h2>
+                <h3 class="calculate_title">Відкладемо за рік</h3>
+                <h2 class="money_year">0</h2>
+            </div>
+        </div>
+        <div class="percents">
+            <h3>Копілка (Скільки будемо відкладати)?</h3>
+            <input type="range"  id="range" min="0" max="100" value="0" step="1">
+            <h3><span class="total_percents">0</span>%</h3>
+        </div>
+        <div class="profit">
+            <h3>Відкладаємо : <span class="prof">0</span></h3>
+            <h3>Тратимо : <span class="spends">0</span></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
